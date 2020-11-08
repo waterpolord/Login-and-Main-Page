@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/header_search"
+        android:icon="@drawable/ic_header_search"
+        android:orderInCategory="101"
+        android:title="@string/header_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/header_notifications"
+        android:icon="@drawable/ic_header_notifications"
+        android:orderInCategory="101"
+        android:title="@string/header_notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/header_car"
+        android:icon="@drawable/ic_menu_car"
+        android:orderInCategory="101"
+        android:title="@string/header_car"
+        app:showAsAction="always" />
+
+</menu>
